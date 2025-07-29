@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.highlight {
+    color: #FD9222;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+body {
+    /* color: red; */
+}
+
+h1 {}
+
+.container {
+    width: 1136px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {}
+
+.header-nav {
+    display: flex;
+    margin-top: 24px;
+}
+
+.header-nav-logo {
+    flex-grow: 1;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 90px;
+}
+
+.header-socials-list {
+    display: flex;
+    gap: 18px;
+}
+
+.header-socials-list-item {}
+
+
+/* hero banner section */
+
+.hero-banner {
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+
+.hero-banner h1 {
+    margin-bottom: 32px;
+    width: 50%;
+}
+
+.hero-banner-buttons {
+    display: flex
+}
+
+.hero-banner-buttons ul {
+    display: flex;
+    gap: 14px;
+}
+
+.hero-banner-buttons a {
+    margin-left: auto;
+}
+
+
+/* benefits */
+
+.benefits {
+    background-color: #1e1823;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.benefits-title {}
+
+.benefits-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 70px;
+}
+
+.benefits-list-item {}
+
+.benefits-list-item h3 {
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+
+
+
+/* sensation section */
+
+.sensation {
+    margin-bottom: 100px;
+}
+
+.sensation-title {
+    margin: 0 auto;
+    margin-bottom: 28px;
+    text-align: center;
+    max-width: 411px;
+    text-transform: uppercase;
+}
+
+.sensation-subtitle {
+    text-align: center;
+    max-width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.sensation-content {
+    margin-right: -32px;
+}
+
+.sensation-list {
+    display: flex;
+    gap: 19px;
+}
+
+.sensation-list-item {
+    padding: 28px 36px 28px 28px;
+    border-radius: 15px;
+    width: 270px;
+    height: 270px;
+}
+
+.sensation-list-item-title {
+    margin-top: 36px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sensation-list-item:first-child {
+    background-color: #FD9222;
+    color: white;
+}
+
+.sensation-list-item:nth-child(3) {
+    background-color: #1E1823;
+    color: white;
+}
+
+.sensation-list-item:nth-child(even) {
+    border: 1px solid #FD9222;
+}
+
+/* how-its-made section */
+
+.made-title {
+    margin-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 411px;
+    text-transform: uppercase;
+}
+
+.made-block {
+    display: flex;
+}
+
+.made-content {
+    padding: 32px;
+}
+
+.made-content-title {
+    margin-bottom: 28px;
+}
+
+
+.made-content-list-item {
+    margin-bottom: 24px;
+}
+
+
+
+
+.feedback-title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 411px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.feedback-list {
+    display: flex;
+    gap: 28px;
+}
+
+.feedback-list-item {
+    text-align: center;
+}
+
+.feedback-list-item-img {
+    margin-bottom: 18px;
+}
+
+.feedback-list-item-title {
+    margin-bottom: 24px;
+}
+
+.feedback-list-item-subtitle {
+    padding: 24px;
+    padding-top: 0;
+}
+
+.button-secondary {
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer section */
+
+.bottom {
+    margin-top: 100px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content-title {
+    font-weight: 500;
+    font-size: 28px;
+    max-width: 300px;
+}
+
+.bottom-content address p {
+    padding-bottom: 14px;
+}
+
+.bottom hr {
+    margin-top: 54px;
+    margin-bottom: 24px;
+}
+
+.bottom-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-navigation-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.bottom-navigation-list-item {
+}
+
+
